@@ -1,0 +1,4139 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-04-05T20:22:31.447Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "наушники",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-04-05T20:22:42.260Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Хар1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-04-05T20:24:12.533Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "qwerq",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (1)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0425\\u0430\\u04401: 213\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-04-05T20:24:43.312Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "qwerq",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-04-05T20:25:10.950Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "qreqwr",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (2)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0425\\u0430\\u04401: qwerwqer\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-04-05T20:39:54.978Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "SiteSettings object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-04-06T15:06:53.427Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "qwer",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-04-06T15:22:19.191Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "qwer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-04-06T15:22:19.205Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "йцук",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-04-06T17:06:04.390Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "SiteSettings object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-04-06T17:06:23.003Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "qreqwr",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-04-06T17:06:46.202Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "SiteSettings object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u043e\\u0433 \\u0431\\u0435\\u0441\\u043f\\u043b\\u0430\\u0442\\u043d\\u043e\\u0439 \\u0434\\u043e\\u0441\\u0442\\u0430\\u0432\\u043a\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-04-06T17:06:58.363Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "qreqwr",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-04-06T17:07:08.403Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "SiteSettings object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u043e\\u0433 \\u0431\\u0435\\u0441\\u043f\\u043b\\u0430\\u0442\\u043d\\u043e\\u0439 \\u0434\\u043e\\u0441\\u0442\\u0430\\u0432\\u043a\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-04-06T17:07:27.711Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "SiteSettings object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-04-06T17:07:35.025Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "qreqwr",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-04-06T17:07:38.278Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "qreqwr",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-04-10T12:35:20.752Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "qreqwr",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0441\\u0442\\u0430\\u0442\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-04-11T09:51:59.356Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "qqqqqqqqqqq",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (3)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0425\\u0430\\u04401: wqer\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-04-11T16:21:13.298Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "SiteSettings object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0426\\u0435\\u043d\\u0430 \\u043e\\u0431\\u044b\\u0447\\u043d\\u043e\\u0439 \\u0434\\u043e\\u0441\\u0442\\u0430\\u0432\\u043a\\u0438\", \"\\u0426\\u0435\\u043d\\u0430 \\u044d\\u043a\\u0441\\u043f\\u0440\\u0435\\u0441\\u0441 \\u0434\\u043e\\u0441\\u0442\\u0430\\u0432\\u043a\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-04-17T14:57:02.984Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "Order object (5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-04-17T14:57:03.000Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "4",
+    "object_repr": "Order object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-04-17T14:57:03.014Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "Order object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-04-17T14:57:03.027Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Order object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-04-17T14:57:03.041Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "Order object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-04-18T14:44:41.997Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "19",
+    "object_repr": "Order object (19)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-04-18T14:44:42.013Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "18",
+    "object_repr": "Order object (18)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-04-18T14:44:42.028Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "17",
+    "object_repr": "Order object (17)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-04-18T14:44:42.043Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "16",
+    "object_repr": "Order object (16)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-04-18T14:44:42.058Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "15",
+    "object_repr": "Order object (15)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-04-18T14:44:42.075Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "14",
+    "object_repr": "Order object (14)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-04-18T14:44:42.091Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "13",
+    "object_repr": "Order object (13)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-04-18T14:44:42.108Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "12",
+    "object_repr": "Order object (12)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-04-18T14:44:42.125Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "11",
+    "object_repr": "Order object (11)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-04-18T14:44:42.142Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "10",
+    "object_repr": "Order object (10)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-04-18T14:44:42.159Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "9",
+    "object_repr": "Order object (9)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-04-18T14:44:42.179Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "8",
+    "object_repr": "Order object (8)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-04-18T14:44:42.198Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "7",
+    "object_repr": "Order object (7)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-04-18T14:44:42.216Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "6",
+    "object_repr": "Order object (6)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-04-18T14:45:00.363Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "qqqqqqqqqqq",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0441\\u0442\\u0430\\u0442\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-04-18T14:45:09.102Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "qreqwr",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0441\\u0442\\u0430\\u0442\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-04-19T13:10:57.259Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "qqqqqqqqqqq",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-04-19T13:10:57.273Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "qreqwr",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-04-19T13:11:15.485Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "test",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-04-19T13:11:15.500Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "test1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-04-19T13:11:15.516Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "test12756",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-04-19T13:12:07.866Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "qwer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Avatar\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-04-19T13:16:05.238Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "qwer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-04-19T13:16:56.446Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Иван Иванов",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u0418\\u041e \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044f\", \"Avatar\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2023-04-19T13:18:40.706Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "6",
+    "object_repr": "Александр Александров",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Avatar\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2023-04-19T14:12:45.845Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "наушники",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2023-04-19T14:13:50.059Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Аудиотехника",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2023-04-19T14:14:25.849Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Колонки",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2023-04-19T14:14:43.785Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Наушники",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2023-04-19T14:15:15.835Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Телевизоры",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2023-04-19T14:16:09.188Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Смартфоны",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2023-04-19T14:16:19.799Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Чехлы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2023-04-19T14:16:35.038Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Защитные стекла",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2023-04-19T14:17:13.634Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Фотоаппараты",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2023-04-19T14:17:28.744Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Стиральные машины",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2023-04-19T14:18:37.983Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Печи",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2023-04-19T14:18:50.795Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "СВЧ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2023-04-19T14:19:27.154Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Духовые",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2023-04-19T14:23:19.997Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Хар1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2023-04-19T14:23:29.259Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Диагональ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2023-04-19T14:24:10.836Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Габариты",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2023-04-19T14:24:17.532Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Память",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2023-04-19T14:26:16.876Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Мощность",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2023-04-19T14:26:22.497Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Гарантия",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2023-04-19T14:26:44.793Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Диапазон частот",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2023-04-19T14:27:20.391Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Разрешение экрана",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2023-04-19T14:27:31.013Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Разрешение снимков",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2023-04-19T14:30:53.930Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Компьютерная акустика 2.0 Sven",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (4)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (5)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (6)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u041c\\u043e\\u0449\\u043d\\u043e\\u0441\\u0442\\u044c: 200 \\u0412\\u0442\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0431\\u0430\\u0440\\u0438\\u0442\\u044b: 225x355x255 \\u043c\\u043c\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u043f\\u0430\\u0437\\u043e\\u043d \\u0447\\u0430\\u0441\\u0442\\u043e\\u0442: 30-27000 \\u0413\\u0446\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2023-04-19T14:33:07.059Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Колонка акустическая портативная RX-6238",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u041c\\u043e\\u0449\\u043d\\u043e\\u0441\\u0442\\u044c: 70 \\u0412\\u0442\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u043f\\u0430\\u0437\\u043e\\u043d \\u0447\\u0430\\u0441\\u0442\\u043e\\u0442: 20000 \\u0413\\u0446\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2023-04-19T14:36:53.383Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Портативная акустика JBL Charge 5 RU",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (7)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (8)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (9)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0431\\u0430\\u0440\\u0438\\u0442\\u044b: 13\\u044526\\u044513 \\u0441\\u043c\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u041c\\u043e\\u0449\\u043d\\u043e\\u0441\\u0442\\u044c: 40 \\u0412\\u0442\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2023-04-19T14:38:27.143Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "JBL TUNE 510BT black",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u041c\\u043e\\u0449\\u043d\\u043e\\u0441\\u0442\\u044c: 103.5 \\u0434\\u0411\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 2 \\u0433\\u043e\\u0434\\u0430\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u043f\\u0430\\u0437\\u043e\\u043d \\u0447\\u0430\\u0441\\u0442\\u043e\\u0442: 20000 \\u0413\\u0446\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2023-04-19T14:42:09.114Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Фотоаппарат Canon EOS 600D",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0420\\u0430\\u0437\\u0440\\u0435\\u0448\\u0435\\u043d\\u0438\\u0435 \\u0441\\u043d\\u0438\\u043c\\u043a\\u043e\\u0432: 18.7 \\u041c\\u041f\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2023-04-19T14:46:47.450Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Колонка акустическая портативная RX-6238",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (10)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (11)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (12)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2023-04-19T14:59:01.654Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Фотоаппарат Canon EOS 600D",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (13)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (14)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (15)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2023-04-19T15:00:31.367Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Умная колонка Яндекс Станция Лайт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (16)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (17)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (18)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2023-04-19T15:34:38.053Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "SiteSettings object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u0431\\u0440\\u0430\\u043d\\u043d\\u044b\\u0435 \\u043a\\u0430\\u0442\\u0435\\u0433\\u043e\\u0440\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2023-04-19T15:36:05.750Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "SiteSettings object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u0431\\u0440\\u0430\\u043d\\u043d\\u044b\\u0435 \\u043a\\u0430\\u0442\\u0435\\u0433\\u043e\\u0440\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2023-04-19T15:36:22.897Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Печи",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2023-04-20T13:45:00.107Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Умная колонка Яндекс Станция Лайт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0441\\u0442\\u0430\\u0442\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2023-04-20T15:37:05.475Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Фотоаппарат Canon EOS 600D",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0441\\u0442\\u0430\\u0442\\u043e\\u043a\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2023-04-23T15:43:50.239Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Гуд!",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2023-04-23T16:50:25.094Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Микроволновая печь Tuvio MS8S20SM1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (19)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (20)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (21)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u041c\\u043e\\u0449\\u043d\\u043e\\u0441\\u0442\\u044c: 800 \\u0412\\u0442\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2023-04-23T16:51:37.870Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Микроволновая печь LG MS2535GISH",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (22)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (23)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (24)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u041c\\u043e\\u0449\\u043d\\u043e\\u0441\\u0442\\u044c: 1150 \\u0412\\u0442\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2023-04-23T16:52:20.650Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Микроволновая печь Tuvio MG7T20SM1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (25)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u041c\\u043e\\u0449\\u043d\\u043e\\u0441\\u0442\\u044c: 700 \\u0412\\u0442\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2023-04-23T16:57:12.836Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Встраиваемый электрический духовой шкаф Beko BIE 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (26)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (27)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (28)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u041c\\u043e\\u0449\\u043d\\u043e\\u0441\\u0442\\u044c: 2200 \\u0412\\u0442\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2023-04-23T16:58:29.015Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Электрический духовой шкаф Beko BCM12300X",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (29)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (30)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (31)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u041c\\u043e\\u0449\\u043d\\u043e\\u0441\\u0442\\u044c: 2100 \\u0412\\u0442\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2023-04-23T17:04:00.382Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Смартфон Apple iPhone 14 Pro 256 ГБ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c: 6.0\\\"-6.4\\\"\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u041f\\u0430\\u043c\\u044f\\u0442\\u044c: 256 \\u0413\\u0411\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2023-04-23T17:05:10.316Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Смартфон realme 10 4/128 ГБ RU, Dual nano SIM",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (32)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (33)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c: 6.0\\\"-6.4\\\"\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u041f\\u0430\\u043c\\u044f\\u0442\\u044c: 128 \\u0413\\u0411\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2023-04-23T17:07:37.026Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Смартфон Samsung Galaxy A33 5G 8/128 ГБ, Dual",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (34)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (35)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c: 6.4\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u041f\\u0430\\u043c\\u044f\\u0442\\u044c: 128 \\u0413\\u0411\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2023-04-23T17:12:11.608Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "Чехол для iPhone 14 Pro с MagSafe",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (36)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (37)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c: 6.7\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2023-04-23T17:13:19.184Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "Силиконовый чехол для Samsung Galaxy A33",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (38)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c: 6.4\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2023-04-23T17:14:06.606Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Умная колонка Яндекс Станция Лайт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u0430\\u0442\\u0435\\u0433\\u043e\\u0440\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2023-04-23T17:14:12.943Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Компьютерная акустика 2.0 Sven",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u0430\\u0442\\u0435\\u0433\\u043e\\u0440\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2023-04-23T17:17:10.815Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "Стекло для iPhone 14 Pro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (39)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (40)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c: 64\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2023-04-23T17:18:07.057Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "Защитное стекло на Samsung Galaxy А33 5G",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (41)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (42)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c: 6.4\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2023-04-23T17:24:44.345Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "JBL TUNE 510BT",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (43)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (44)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (45)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u043f\\u0430\\u0437\\u043e\\u043d \\u0447\\u0430\\u0441\\u0442\\u043e\\u0442: 20000 \\u0413\\u0446\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2023-04-23T17:25:34.783Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "22",
+    "object_repr": "Marshall Major IV black",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (46)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u043f\\u0430\\u0437\\u043e\\u043d \\u0447\\u0430\\u0441\\u0442\\u043e\\u0442: 20000 \\u0413\\u0446\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2023-04-23T17:26:50.871Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "23",
+    "object_repr": "Беспроводные наушники HONOR Choice Earbuds X",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (47)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (48)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (49)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u043f\\u0430\\u0437\\u043e\\u043d \\u0447\\u0430\\u0441\\u0442\\u043e\\u0442: 20000 \\u0413\\u0446\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2023-04-23T17:28:56.352Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "24",
+    "object_repr": "Телевизор Tuvio 4K ULTRA HD DLED",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (50)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (51)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c: 50\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2023-04-23T17:30:02.715Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "25",
+    "object_repr": "Телевизор Xiaomi Mi TV A2 50 RU",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (52)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (53)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c: 55\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2023-04-23T17:32:39.765Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "26",
+    "object_repr": "Телевизор LG 50UQ76003LD 2022 LED",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (54)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (55)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0414\\u0438\\u0430\\u0433\\u043e\\u043d\\u0430\\u043b\\u044c: 50\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0420\\u0430\\u0437\\u0440\\u0435\\u0448\\u0435\\u043d\\u0438\\u0435 \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430: 3840x2160\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2023-04-23T17:34:06.061Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Смартфон Apple iPhone 14 Pro 256 ГБ",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (56)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (57)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2023-04-23T17:37:44.299Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "27",
+    "object_repr": "Стиральная машина с инвертором и паром Tuvio WFS76",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (58)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (59)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2023-04-23T17:38:41.014Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "28",
+    "object_repr": "Стиральная машина Indesit EWSD",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 1 \\u0433\\u043e\\u0434\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2023-04-23T17:39:28.994Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "29",
+    "object_repr": "Стиральная машина Beko WSPE6H616W",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (60)\"}}, {\"added\": {\"name\": \"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\", \"object\": \"Gallery object (61)\"}}, {\"added\": {\"name\": \"\\u0425\\u0430\\u0440\\u0430\\u043a\\u0442\\u0435\\u0440\\u0438\\u0441\\u0442\\u0438\\u043a\\u0430\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f: 2 \\u0433\\u043e\\u0434\\u0430\"}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Категория",
+    "content_type": 7,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Категория",
+    "content_type": 7,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Категория",
+    "content_type": 7,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Категория",
+    "content_type": 7,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Товар",
+    "content_type": 8,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Товар",
+    "content_type": 8,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Товар",
+    "content_type": 8,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Товар",
+    "content_type": 8,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Имя характеристики",
+    "content_type": 9,
+    "codename": "add_specname"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Имя характеристики",
+    "content_type": 9,
+    "codename": "change_specname"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Имя характеристики",
+    "content_type": 9,
+    "codename": "delete_specname"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Имя характеристики",
+    "content_type": 9,
+    "codename": "view_specname"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Характеристика",
+    "content_type": 10,
+    "codename": "add_spec"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Характеристика",
+    "content_type": 10,
+    "codename": "change_spec"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Характеристика",
+    "content_type": 10,
+    "codename": "delete_spec"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Характеристика",
+    "content_type": 10,
+    "codename": "view_spec"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Отзыв",
+    "content_type": 11,
+    "codename": "add_reviews"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Отзыв",
+    "content_type": 11,
+    "codename": "change_reviews"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Отзыв",
+    "content_type": 11,
+    "codename": "delete_reviews"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Отзыв",
+    "content_type": 11,
+    "codename": "view_reviews"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add Изображение",
+    "content_type": 12,
+    "codename": "add_gallery"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change Изображение",
+    "content_type": 12,
+    "codename": "change_gallery"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete Изображение",
+    "content_type": 12,
+    "codename": "delete_gallery"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view Изображение",
+    "content_type": 12,
+    "codename": "view_gallery"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add Профиль",
+    "content_type": 13,
+    "codename": "add_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change Профиль",
+    "content_type": 13,
+    "codename": "change_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete Профиль",
+    "content_type": 13,
+    "codename": "delete_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view Профиль",
+    "content_type": 13,
+    "codename": "view_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add Настройки сайта",
+    "content_type": 14,
+    "codename": "add_sitesettings"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change Настройки сайта",
+    "content_type": 14,
+    "codename": "change_sitesettings"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete Настройки сайта",
+    "content_type": 14,
+    "codename": "delete_sitesettings"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view Настройки сайта",
+    "content_type": 14,
+    "codename": "view_sitesettings"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add Заказ",
+    "content_type": 15,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change Заказ",
+    "content_type": 15,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete Заказ",
+    "content_type": 15,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view Заказ",
+    "content_type": 15,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add Товары",
+    "content_type": 16,
+    "codename": "add_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change Товары",
+    "content_type": 16,
+    "codename": "change_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete Товары",
+    "content_type": 16,
+    "codename": "delete_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view Товары",
+    "content_type": 16,
+    "codename": "view_orderitem"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$GNtjw0PGbakPTT3NSAEY0V$W+Ea57MBdisYKTKxf6UuijBrUHtN6NSI8HuI1Sfmg4s=",
+    "last_login": "2023-04-19T13:15:39.303Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-04-05T20:19:31.175Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$0i36LZWIaTuxXfp6Tzbzeu$1X+0jCG23F2fHYf6+G8Rn9/gIxDssj11jUFdNpisT5E=",
+    "last_login": "2023-04-19T13:14:01.990Z",
+    "is_superuser": false,
+    "username": "Ivan123",
+    "first_name": "",
+    "last_name": "",
+    "email": "test_email@company.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-19T13:14:01.448Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$wEKnmmcxR8dsMEFUuD1QrE$D9InimX0/V7r2idmm7q+92WI11nlh1GO6q33PjrIMLQ=",
+    "last_login": "2023-04-19T13:15:29.188Z",
+    "is_superuser": false,
+    "username": "Alex123",
+    "first_name": "",
+    "last_name": "",
+    "email": "test_email1@company.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-19T13:15:28.668Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$XdGtkkW00XJmqalRHFaglh$GJyicpIzZb+RNYOAv3yhfZvYqdHdYzjNdgczIWTRUbI=",
+    "last_login": "2023-04-23T15:12:02.123Z",
+    "is_superuser": false,
+    "username": "test1",
+    "first_name": "",
+    "last_name": "",
+    "email": "web_sawko24@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-23T10:29:14.988Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$GEoCJ8FEChR6ueZhx9IVFX$NYVjE79U9rNzR3d89vWBTXJUwvUHRi7XNe9RH1gFTvE=",
+    "last_login": "2023-04-23T15:12:20.028Z",
+    "is_superuser": false,
+    "username": "test123",
+    "first_name": "",
+    "last_name": "",
+    "email": "test123@mail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-04-23T15:07:12.884Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "app_store",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "app_store",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "app_store",
+    "model": "specname"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "app_store",
+    "model": "spec"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "app_store",
+    "model": "reviews"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "app_store",
+    "model": "gallery"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "app_users",
+    "model": "profile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "app_settings",
+    "model": "sitesettings"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "app_orders",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "app_orders",
+    "model": "orderitem"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3rue1mdk8agig5fq5ogch8eppcdkbm0x",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSEwf5fpcwa0wBKcRCBhu7J89wjJRdK-mTcH8bBvxe8rdr8kMhNLbr9bgPjGOkB6QX02Glvd-hLoUOhFV_poCT_3y_0LFFjLeHMmFGbJURsr8wQ2IosanEXl-CQDABilRcZgpUCOhjnIOgkQyrg8ohH6RubjPL8uujuR:1pqdsZ:nazqFeuC_7rf7hBTIkHuBP00cfLg93hzgqGengHJbo0",
+    "expire_date": "2023-05-07T17:52:03.485Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "41k8a4op1fdvzbodlblcuixwfua06uao",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7fX0:1pkmuF:ipYZr0WTvpaK_TV90cfu--f5yzQHr7KDgSpRfx2DJJc",
+    "expire_date": "2023-04-21T14:17:35.583Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "psdp4rdr9j53rftqknji9qivk7b2v5jm",
+  "fields": {
+    "session_data": ".eJxVjEEOgyAQRe_CuiGAIxiX3fcMZAaYYttAorgy3t2auGi3_73_NuFxbdmvS5r9FMUotLj9boThncoJ4gvLs8pQS5snkqciL7rIR43pc7_cv0DGJX_fTJ0CZyxhz8EAEFLvnNOkOaJlO6ikg06WjBtAoY5ADIERrcOOuzMacG5i3Pb9ADjmO_U:1pqdgP:xloDWOCdoRhYk1A18DSbRzmi78Jmb4ELze9NNYaiAeU",
+    "expire_date": "2023-05-07T17:39:29.349Z"
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 4,
+  "fields": {
+    "category": 3,
+    "name": "Компьютерная акустика 2.0 Sven",
+    "slug": "kompiuternaia-akustika-20-sven",
+    "description": "Акустический тип: 2.0; Мощность: 100 Вт и более; Особенности: Поддержка Bluetooth; Выходная мощность",
+    "price": 1990,
+    "stock": 36,
+    "created": "2023-04-19",
+    "limited": false,
+    "available": true,
+    "sort_index": 1,
+    "purchases_num": 4,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 5,
+  "fields": {
+    "category": 3,
+    "name": "Колонка акустическая портативная RX-6238",
+    "slug": "kolonka-akusticheskaia-portativnaia-rx-6238",
+    "description": "Если присматриваете не дорогой вариант трехполосной акустики. Он перед Вами. Это Колонка акустическа",
+    "price": 2590,
+    "stock": 0,
+    "created": "2023-04-19",
+    "limited": true,
+    "available": true,
+    "sort_index": 2,
+    "purchases_num": 2,
+    "free_delivery": true
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 6,
+  "fields": {
+    "category": 3,
+    "name": "Портативная акустика JBL Charge 5 RU",
+    "slug": "portativnaia-akustika-jbl-charge-5-ru",
+    "description": "Устрой вечеринку независимо от погоды. Колонка JBL Charge 5 — это легендарный звук JBL",
+    "price": 1178,
+    "stock": 0,
+    "created": "2023-04-19",
+    "limited": true,
+    "available": true,
+    "sort_index": 1,
+    "purchases_num": 1,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 7,
+  "fields": {
+    "category": 3,
+    "name": "Умная колонка Яндекс Станция Лайт",
+    "slug": "jbl-tune-510bt-black",
+    "description": "Яндекс.Станция Лайт — это яркая и компактная умная колонка, которая управляется голосом",
+    "price": 399,
+    "stock": 0,
+    "created": "2023-04-19",
+    "limited": true,
+    "available": true,
+    "sort_index": 4,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 8,
+  "fields": {
+    "category": 9,
+    "name": "Фотоаппарат Canon EOS 600D",
+    "slug": "fotoapparat-canon-eos-600d",
+    "description": "любительская зеркальная фотокамера байонет Canon EF/EF-S объектив в комплекте",
+    "price": 2230,
+    "stock": 0,
+    "created": "2023-04-19",
+    "limited": true,
+    "available": true,
+    "sort_index": 5,
+    "purchases_num": 1,
+    "free_delivery": true
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 9,
+  "fields": {
+    "category": 12,
+    "name": "Микроволновая печь Tuvio MS8S20SM1",
+    "slug": "mikrovolnovaia-pech-tuvio-ms8s20sm1",
+    "description": "Tuvio — это бренд удобной бытовой техники для домашней семейной жизни, придуманный в Яндексе.",
+    "price": 659,
+    "stock": 10,
+    "created": "2023-04-23",
+    "limited": true,
+    "available": true,
+    "sort_index": 5,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 10,
+  "fields": {
+    "category": 12,
+    "name": "Микроволновая печь LG MS2535GISH",
+    "slug": "mikrovolnovaia-pech-lg-ms2535gish",
+    "description": "Микроволновая печь LG NeoChef c технологией Smart Inverter.Благодаря высокой мощности в 1150 Вт",
+    "price": 1615,
+    "stock": 30,
+    "created": "2023-04-23",
+    "limited": false,
+    "available": true,
+    "sort_index": 2,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 11,
+  "fields": {
+    "category": 12,
+    "name": "Микроволновая печь Tuvio MG7T20SM1",
+    "slug": "mikrovolnovaia-pech-tuvio-mg7t20sm1",
+    "description": "Микроволновая печь Tuvio с классическим набором функций станет незаменимым игроком на вашей кухне",
+    "price": 699,
+    "stock": 20,
+    "created": "2023-04-23",
+    "limited": false,
+    "available": true,
+    "sort_index": 4,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 12,
+  "fields": {
+    "category": 13,
+    "name": "Встраиваемый электрический духовой шкаф Beko BIE 2",
+    "slug": "vstraivaemyi-elektricheskii-dukhovoi-shkaf-beko-bi",
+    "description": "Встраиваемый духовой шкаф Beko с удобным LED-дисплеем и утапливаемыми ручками выбора температуры",
+    "price": 2077,
+    "stock": 3,
+    "created": "2023-04-23",
+    "limited": true,
+    "available": true,
+    "sort_index": 4,
+    "purchases_num": 0,
+    "free_delivery": true
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 13,
+  "fields": {
+    "category": 13,
+    "name": "Электрический духовой шкаф Beko BCM12300X",
+    "slug": "elektricheskii-dukhovoi-shkaf-beko-bcm12300x",
+    "description": "Компактный встраиваемый духовой шкаф объемом 48 л имеет 3 уровня направляющих",
+    "price": 1720,
+    "stock": 15,
+    "created": "2023-04-23",
+    "limited": false,
+    "available": true,
+    "sort_index": 5,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 14,
+  "fields": {
+    "category": 6,
+    "name": "Смартфон Apple iPhone 14 Pro 256 ГБ",
+    "slug": "smartfon-apple-iphone-14-pro-256-gb",
+    "description": "Новый волшебный способ взаимодействия с iPhone.\r\nНоваторские функции безопасности",
+    "price": 1001,
+    "stock": 0,
+    "created": "2023-04-23",
+    "limited": false,
+    "available": true,
+    "sort_index": 1,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 15,
+  "fields": {
+    "category": 6,
+    "name": "Смартфон realme 10 4/128 ГБ RU, Dual nano SIM",
+    "slug": "smartfon-realme-10-4128-gb-ru-dual-nano-sim",
+    "description": "Смартфон Realme 10 4G характеризуется высокой производительностью. Экран с технологией AMOLED",
+    "price": 1599,
+    "stock": 26,
+    "created": "2023-04-23",
+    "limited": false,
+    "available": true,
+    "sort_index": 2,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 16,
+  "fields": {
+    "category": 6,
+    "name": "Смартфон Samsung Galaxy A33 5G 8/128 ГБ, Dual",
+    "slug": "smartfon-samsung-galaxy-a33-5g-8128-gb-dual",
+    "description": "Меньше значит больше. Galaxy A33 5G теперь тоньше и элегантнее.",
+    "price": 1299,
+    "stock": 14,
+    "created": "2023-04-23",
+    "limited": true,
+    "available": true,
+    "sort_index": 2,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 17,
+  "fields": {
+    "category": 7,
+    "name": "Чехол для iPhone 14 Pro с MagSafe",
+    "slug": "chekhol-dlia-iphone-14-pro-s-magsafe",
+    "description": "Силиконовый чехол Mag Safe обеспечивает защиту от ударов и падений",
+    "price": 33,
+    "stock": 10,
+    "created": "2023-04-23",
+    "limited": false,
+    "available": true,
+    "sort_index": 4,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 18,
+  "fields": {
+    "category": 7,
+    "name": "Силиконовый чехол для Samsung Galaxy A33",
+    "slug": "silikonovyi-chekhol-dlia-samsung-galaxy-a33",
+    "description": "Прозрачный силиконовый чехол отличного качества. Теперь можно брать телефон в любые поездки",
+    "price": 15,
+    "stock": 40,
+    "created": "2023-04-23",
+    "limited": false,
+    "available": true,
+    "sort_index": 5,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 19,
+  "fields": {
+    "category": 8,
+    "name": "Стекло для iPhone 14 Pro",
+    "slug": "steklo-dlia-iphone-14-pro",
+    "description": "Стекло защитное для iPhone 14 Pro надежно защитит экран Вашего смартфона",
+    "price": 15,
+    "stock": 60,
+    "created": "2023-04-23",
+    "limited": false,
+    "available": true,
+    "sort_index": 2,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 20,
+  "fields": {
+    "category": 8,
+    "name": "Защитное стекло на Samsung Galaxy А33 5G",
+    "slug": "zashchitnoe-steklo-na-samsung-galaxy-a33-5g",
+    "description": "Защитное стекло формата 3D glass обеспечит максимальную защиту экрана Вашего телефона",
+    "price": 5,
+    "stock": 12,
+    "created": "2023-04-23",
+    "limited": false,
+    "available": true,
+    "sort_index": 3,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 21,
+  "fields": {
+    "category": 4,
+    "name": "JBL TUNE 510BT",
+    "slug": "jbl-tune-510bt",
+    "description": "Наушники JBL Tune 510BT позволяют наслаждаться мощными басами благодаря технологии JBL Pure Bass",
+    "price": 399,
+    "stock": 15,
+    "created": "2023-04-23",
+    "limited": true,
+    "available": true,
+    "sort_index": 2,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 22,
+  "fields": {
+    "category": 4,
+    "name": "Marshall Major IV black",
+    "slug": "marshall-major-iv-black",
+    "description": "MARSHALL Major IV, культовые наушники Marshall с более чем 80 часами воспроизведения",
+    "price": 1120,
+    "stock": 10,
+    "created": "2023-04-23",
+    "limited": true,
+    "available": true,
+    "sort_index": 3,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 23,
+  "fields": {
+    "category": 4,
+    "name": "Беспроводные наушники HONOR Choice Earbuds X",
+    "slug": "besprovodnye-naushniki-honor-choice-earbuds-x",
+    "description": "Наушники Honor Choice Earbuds X могут работать при воспроизведении музыки в течение 6 часов",
+    "price": 560,
+    "stock": 16,
+    "created": "2023-04-23",
+    "limited": false,
+    "available": true,
+    "sort_index": 5,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 24,
+  "fields": {
+    "category": 5,
+    "name": "Телевизор Tuvio 4K ULTRA HD DLED",
+    "slug": "televizor-tuvio-4k-ultra-hd-dled",
+    "description": "Телевизор Tuvio Frameless 4K Ultra HD DLED 50’’ на платформе Яндекс.ТВ",
+    "price": 999,
+    "stock": 11,
+    "created": "2023-04-23",
+    "limited": true,
+    "available": true,
+    "sort_index": 3,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 25,
+  "fields": {
+    "category": 5,
+    "name": "Телевизор Xiaomi Mi TV A2 50 RU",
+    "slug": "televizor-xiaomi-mi-tv-a2-50-ru",
+    "description": "Xiaomi TV A2 Series – В серии умных телевизоров Xiaomi TV A2 каждый найдет для себя самый подходящий",
+    "price": 3100,
+    "stock": 7,
+    "created": "2023-04-23",
+    "limited": true,
+    "available": true,
+    "sort_index": 1,
+    "purchases_num": 0,
+    "free_delivery": true
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 26,
+  "fields": {
+    "category": 5,
+    "name": "Телевизор LG 50UQ76003LD 2022 LED",
+    "slug": "televizor-lg-50uq76003ld-2022-led",
+    "description": "Тип:LED телевизор 4K UHD\r\nДиагональ:50\"\r\nHD-формат:4K Ultra HD 2160p\r\nРазрешение:3840x2160 пикс.",
+    "price": 2590,
+    "stock": 21,
+    "created": "2023-04-23",
+    "limited": false,
+    "available": true,
+    "sort_index": 3,
+    "purchases_num": 0,
+    "free_delivery": true
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 27,
+  "fields": {
+    "category": 10,
+    "name": "Стиральная машина с инвертором и паром Tuvio WFS76",
+    "slug": "stiralnaia-mashina-s-invertorom-i-parom-tuvio-wfs7",
+    "description": "Стиральная машинка Tuvio — классическая модель, которая сможет приятно удивить",
+    "price": 2590,
+    "stock": 31,
+    "created": "2023-04-23",
+    "limited": false,
+    "available": true,
+    "sort_index": 3,
+    "purchases_num": 0,
+    "free_delivery": true
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 28,
+  "fields": {
+    "category": 10,
+    "name": "Стиральная машина Indesit EWSD",
+    "slug": "stiralnaia-mashina-indesit-ewsd",
+    "description": "Стиральная машина Indesit EWSD 51031 BK CIS – качественная стирка и низкий уровень шума.",
+    "price": 1912,
+    "stock": 51,
+    "created": "2023-04-23",
+    "limited": false,
+    "available": true,
+    "sort_index": 4,
+    "purchases_num": 0,
+    "free_delivery": false
+  }
+},
+{
+  "model": "app_store.product",
+  "pk": 29,
+  "fields": {
+    "category": 10,
+    "name": "Стиральная машина Beko WSPE6H616W",
+    "slug": "stiralnaia-mashina-beko-wspe6h616w",
+    "description": "Стиральная машина с инверторным мотором ProSmart и долговечным нагревателем Hi-Tech",
+    "price": 2200,
+    "stock": 12,
+    "created": "2023-04-23",
+    "limited": false,
+    "available": true,
+    "sort_index": 3,
+    "purchases_num": 0,
+    "free_delivery": true
+  }
+},
+{
+  "model": "app_store.category",
+  "pk": 2,
+  "fields": {
+    "name": "Аудиотехника",
+    "parent": null,
+    "slug": "audiotekhnika",
+    "icon": "cat_icons/5.svg",
+    "image": "cat_images/orig.webp"
+  }
+},
+{
+  "model": "app_store.category",
+  "pk": 3,
+  "fields": {
+    "name": "Колонки",
+    "parent": 2,
+    "slug": "kolonki",
+    "icon": "cat_icons/5_Uxtknkm.svg",
+    "image": ""
+  }
+},
+{
+  "model": "app_store.category",
+  "pk": 4,
+  "fields": {
+    "name": "Наушники",
+    "parent": 2,
+    "slug": "naushniki",
+    "icon": "cat_icons/2.svg",
+    "image": ""
+  }
+},
+{
+  "model": "app_store.category",
+  "pk": 5,
+  "fields": {
+    "name": "Телевизоры",
+    "parent": null,
+    "slug": "televizory",
+    "icon": "cat_icons/1.svg",
+    "image": ""
+  }
+},
+{
+  "model": "app_store.category",
+  "pk": 6,
+  "fields": {
+    "name": "Смартфоны",
+    "parent": null,
+    "slug": "smartfony",
+    "icon": "cat_icons/8.svg",
+    "image": ""
+  }
+},
+{
+  "model": "app_store.category",
+  "pk": 7,
+  "fields": {
+    "name": "Чехлы",
+    "parent": 6,
+    "slug": "chekhly",
+    "icon": "cat_icons/8_1fMTkVv.svg",
+    "image": ""
+  }
+},
+{
+  "model": "app_store.category",
+  "pk": 8,
+  "fields": {
+    "name": "Защитные стекла",
+    "parent": 6,
+    "slug": "zashchitnye-stekla",
+    "icon": "cat_icons/8_JK33sCC.svg",
+    "image": ""
+  }
+},
+{
+  "model": "app_store.category",
+  "pk": 9,
+  "fields": {
+    "name": "Фотоаппараты",
+    "parent": null,
+    "slug": "fotoapparaty",
+    "icon": "cat_icons/6.svg",
+    "image": "cat_images/pngimg.com_-_photo_camera_PNG7846.png"
+  }
+},
+{
+  "model": "app_store.category",
+  "pk": 10,
+  "fields": {
+    "name": "Стиральные машины",
+    "parent": null,
+    "slug": "stiralnye-mashiny",
+    "icon": "cat_icons/3.svg",
+    "image": ""
+  }
+},
+{
+  "model": "app_store.category",
+  "pk": 11,
+  "fields": {
+    "name": "Печи",
+    "parent": null,
+    "slug": "pechi",
+    "icon": "cat_icons/7.svg",
+    "image": "cat_images/orig_371qHBj.webp"
+  }
+},
+{
+  "model": "app_store.category",
+  "pk": 12,
+  "fields": {
+    "name": "СВЧ",
+    "parent": 11,
+    "slug": "svch",
+    "icon": "cat_icons/9.svg",
+    "image": ""
+  }
+},
+{
+  "model": "app_store.category",
+  "pk": 13,
+  "fields": {
+    "name": "Духовые",
+    "parent": 11,
+    "slug": "dukhovye",
+    "icon": "cat_icons/7_q640mZB.svg",
+    "image": "cat_images/orig_3.webp"
+  }
+},
+{
+  "model": "app_store.specname",
+  "pk": 2,
+  "fields": {
+    "name": "Диагональ"
+  }
+},
+{
+  "model": "app_store.specname",
+  "pk": 3,
+  "fields": {
+    "name": "Габариты"
+  }
+},
+{
+  "model": "app_store.specname",
+  "pk": 4,
+  "fields": {
+    "name": "Память"
+  }
+},
+{
+  "model": "app_store.specname",
+  "pk": 5,
+  "fields": {
+    "name": "Мощность"
+  }
+},
+{
+  "model": "app_store.specname",
+  "pk": 6,
+  "fields": {
+    "name": "Гарантия"
+  }
+},
+{
+  "model": "app_store.specname",
+  "pk": 7,
+  "fields": {
+    "name": "Диапазон частот"
+  }
+},
+{
+  "model": "app_store.specname",
+  "pk": 8,
+  "fields": {
+    "name": "Разрешение экрана"
+  }
+},
+{
+  "model": "app_store.specname",
+  "pk": 9,
+  "fields": {
+    "name": "Разрешение снимков"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 4,
+  "fields": {
+    "product": 4,
+    "spec_name": 5,
+    "value": "200 Вт"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 5,
+  "fields": {
+    "product": 4,
+    "spec_name": 3,
+    "value": "225x355x255 мм"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 6,
+  "fields": {
+    "product": 4,
+    "spec_name": 7,
+    "value": "30-27000 Гц"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 7,
+  "fields": {
+    "product": 5,
+    "spec_name": 5,
+    "value": "70 Вт"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 8,
+  "fields": {
+    "product": 5,
+    "spec_name": 7,
+    "value": "20000 Гц"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 9,
+  "fields": {
+    "product": 5,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 10,
+  "fields": {
+    "product": 6,
+    "spec_name": 3,
+    "value": "13х26х13 см"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 11,
+  "fields": {
+    "product": 6,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 12,
+  "fields": {
+    "product": 6,
+    "spec_name": 5,
+    "value": "40 Вт"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 13,
+  "fields": {
+    "product": 7,
+    "spec_name": 5,
+    "value": "103.5 дБ"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 14,
+  "fields": {
+    "product": 7,
+    "spec_name": 6,
+    "value": "2 года"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 15,
+  "fields": {
+    "product": 7,
+    "spec_name": 7,
+    "value": "20000 Гц"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 16,
+  "fields": {
+    "product": 8,
+    "spec_name": 9,
+    "value": "18.7 МП"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 17,
+  "fields": {
+    "product": 8,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 18,
+  "fields": {
+    "product": 9,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 19,
+  "fields": {
+    "product": 9,
+    "spec_name": 5,
+    "value": "800 Вт"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 20,
+  "fields": {
+    "product": 10,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 21,
+  "fields": {
+    "product": 10,
+    "spec_name": 5,
+    "value": "1150 Вт"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 22,
+  "fields": {
+    "product": 11,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 23,
+  "fields": {
+    "product": 11,
+    "spec_name": 5,
+    "value": "700 Вт"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 24,
+  "fields": {
+    "product": 12,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 25,
+  "fields": {
+    "product": 12,
+    "spec_name": 5,
+    "value": "2200 Вт"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 26,
+  "fields": {
+    "product": 13,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 27,
+  "fields": {
+    "product": 13,
+    "spec_name": 5,
+    "value": "2100 Вт"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 28,
+  "fields": {
+    "product": 14,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 29,
+  "fields": {
+    "product": 14,
+    "spec_name": 2,
+    "value": "6.0\"-6.4\""
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 30,
+  "fields": {
+    "product": 14,
+    "spec_name": 4,
+    "value": "256 ГБ"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 31,
+  "fields": {
+    "product": 15,
+    "spec_name": 2,
+    "value": "6.0\"-6.4\""
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 32,
+  "fields": {
+    "product": 15,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 33,
+  "fields": {
+    "product": 15,
+    "spec_name": 4,
+    "value": "128 ГБ"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 34,
+  "fields": {
+    "product": 16,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 35,
+  "fields": {
+    "product": 16,
+    "spec_name": 2,
+    "value": "6.4"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 36,
+  "fields": {
+    "product": 16,
+    "spec_name": 4,
+    "value": "128 ГБ"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 37,
+  "fields": {
+    "product": 17,
+    "spec_name": 2,
+    "value": "6.7"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 38,
+  "fields": {
+    "product": 18,
+    "spec_name": 2,
+    "value": "6.4"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 39,
+  "fields": {
+    "product": 19,
+    "spec_name": 2,
+    "value": "64"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 40,
+  "fields": {
+    "product": 20,
+    "spec_name": 2,
+    "value": "6.4"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 41,
+  "fields": {
+    "product": 21,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 42,
+  "fields": {
+    "product": 21,
+    "spec_name": 7,
+    "value": "20000 Гц"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 43,
+  "fields": {
+    "product": 22,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 44,
+  "fields": {
+    "product": 22,
+    "spec_name": 7,
+    "value": "20000 Гц"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 45,
+  "fields": {
+    "product": 23,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 46,
+  "fields": {
+    "product": 23,
+    "spec_name": 7,
+    "value": "20000 Гц"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 47,
+  "fields": {
+    "product": 24,
+    "spec_name": 2,
+    "value": "50"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 48,
+  "fields": {
+    "product": 25,
+    "spec_name": 2,
+    "value": "55"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 49,
+  "fields": {
+    "product": 25,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 50,
+  "fields": {
+    "product": 26,
+    "spec_name": 2,
+    "value": "50"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 51,
+  "fields": {
+    "product": 26,
+    "spec_name": 8,
+    "value": "3840x2160"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 52,
+  "fields": {
+    "product": 27,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 53,
+  "fields": {
+    "product": 28,
+    "spec_name": 6,
+    "value": "1 год"
+  }
+},
+{
+  "model": "app_store.spec",
+  "pk": 54,
+  "fields": {
+    "product": 29,
+    "spec_name": 6,
+    "value": "2 года"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 4,
+  "fields": {
+    "product": 4,
+    "image": "products/2023/04/19/orig.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 5,
+  "fields": {
+    "product": 4,
+    "image": "products/2023/04/19/orig_2.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 6,
+  "fields": {
+    "product": 4,
+    "image": "products/2023/04/19/orig_1.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 7,
+  "fields": {
+    "product": 6,
+    "image": "products/2023/04/19/orig_b7OPA32.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 8,
+  "fields": {
+    "product": 6,
+    "image": "products/2023/04/19/orig_3.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 9,
+  "fields": {
+    "product": 6,
+    "image": "products/2023/04/19/orig_1_z0qlpiG.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 10,
+  "fields": {
+    "product": 5,
+    "image": "products/2023/04/19/orig_3_1Kmcvgm.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 11,
+  "fields": {
+    "product": 5,
+    "image": "products/2023/04/19/orig_mqeC854.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 12,
+  "fields": {
+    "product": 5,
+    "image": "products/2023/04/19/orig_1_aNa6vFQ.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 13,
+  "fields": {
+    "product": 8,
+    "image": "products/2023/04/19/orig_2_yb5dSOi.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 14,
+  "fields": {
+    "product": 8,
+    "image": "products/2023/04/19/orig_KWbI84J.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 15,
+  "fields": {
+    "product": 8,
+    "image": "products/2023/04/19/orig_1_YJJJqxv.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 16,
+  "fields": {
+    "product": 7,
+    "image": "products/2023/04/19/orig_2_JLvxMcJ.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 17,
+  "fields": {
+    "product": 7,
+    "image": "products/2023/04/19/orig_1_C4SDYto.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 18,
+  "fields": {
+    "product": 7,
+    "image": "products/2023/04/19/orig_tA7ArTR.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 19,
+  "fields": {
+    "product": 9,
+    "image": "products/2023/04/23/orig_4.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 20,
+  "fields": {
+    "product": 9,
+    "image": "products/2023/04/23/orig.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 21,
+  "fields": {
+    "product": 9,
+    "image": "products/2023/04/23/orig_1.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 22,
+  "fields": {
+    "product": 10,
+    "image": "products/2023/04/23/orig_p9qzqzk.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 23,
+  "fields": {
+    "product": 10,
+    "image": "products/2023/04/23/orig_2.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 24,
+  "fields": {
+    "product": 10,
+    "image": "products/2023/04/23/orig_1_WERmkhy.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 25,
+  "fields": {
+    "product": 11,
+    "image": "products/2023/04/23/orig_3.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 26,
+  "fields": {
+    "product": 12,
+    "image": "products/2023/04/23/orig_1_2ohOfZS.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 27,
+  "fields": {
+    "product": 12,
+    "image": "products/2023/04/23/orig_2_Vr45LpT.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 28,
+  "fields": {
+    "product": 12,
+    "image": "products/2023/04/23/orig_QWG3o7Z.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 29,
+  "fields": {
+    "product": 13,
+    "image": "products/2023/04/23/orig_1_8ku4Mhl.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 30,
+  "fields": {
+    "product": 13,
+    "image": "products/2023/04/23/orig_3_TXlr4ia.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 31,
+  "fields": {
+    "product": 13,
+    "image": "products/2023/04/23/orig_KSh1ljL.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 32,
+  "fields": {
+    "product": 15,
+    "image": "products/2023/04/23/orig_1_ydl0tjV.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 33,
+  "fields": {
+    "product": 15,
+    "image": "products/2023/04/23/orig_upJy0Jz.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 34,
+  "fields": {
+    "product": 16,
+    "image": "products/2023/04/23/orig_2_75HIaNI.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 35,
+  "fields": {
+    "product": 16,
+    "image": "products/2023/04/23/orig_qbyY8vw.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 36,
+  "fields": {
+    "product": 17,
+    "image": "products/2023/04/23/orig_1_0jzUrdl.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 37,
+  "fields": {
+    "product": 17,
+    "image": "products/2023/04/23/orig_EAlJtDW.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 38,
+  "fields": {
+    "product": 18,
+    "image": "products/2023/04/23/orig_2_vhQCEKR.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 39,
+  "fields": {
+    "product": 19,
+    "image": "products/2023/04/23/orig_lu28kCC.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 40,
+  "fields": {
+    "product": 19,
+    "image": "products/2023/04/23/orig_1_DlW0eXw.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 41,
+  "fields": {
+    "product": 20,
+    "image": "products/2023/04/23/orig_2_4uG5Foj.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 42,
+  "fields": {
+    "product": 20,
+    "image": "products/2023/04/23/orig_3_e5VS4IZ.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 43,
+  "fields": {
+    "product": 21,
+    "image": "products/2023/04/23/orig_2_CPC3gYo.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 44,
+  "fields": {
+    "product": 21,
+    "image": "products/2023/04/23/orig_1_CUsl4uM.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 45,
+  "fields": {
+    "product": 21,
+    "image": "products/2023/04/23/orig_dB5b7VG.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 46,
+  "fields": {
+    "product": 22,
+    "image": "products/2023/04/23/orig_2_9I4Dk4u.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 47,
+  "fields": {
+    "product": 23,
+    "image": "products/2023/04/23/orig_3_8L7mTeZ.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 48,
+  "fields": {
+    "product": 23,
+    "image": "products/2023/04/23/orig_UNeyO5A.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 49,
+  "fields": {
+    "product": 23,
+    "image": "products/2023/04/23/orig_1_EbUOHO6.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 50,
+  "fields": {
+    "product": 24,
+    "image": "products/2023/04/23/orig_4_rdnVYGt.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 51,
+  "fields": {
+    "product": 24,
+    "image": "products/2023/04/23/orig_lyErnJh.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 52,
+  "fields": {
+    "product": 25,
+    "image": "products/2023/04/23/orig_Jcr3ljs.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 53,
+  "fields": {
+    "product": 25,
+    "image": "products/2023/04/23/orig_1_pWWHs19.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 54,
+  "fields": {
+    "product": 26,
+    "image": "products/2023/04/23/orig_2_GQBGbew.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 55,
+  "fields": {
+    "product": 26,
+    "image": "products/2023/04/23/orig_NRdlVxq.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 56,
+  "fields": {
+    "product": 14,
+    "image": "products/2023/04/23/orig_3_rBLvfmY.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 57,
+  "fields": {
+    "product": 14,
+    "image": "products/2023/04/23/orig_RvHufKT.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 58,
+  "fields": {
+    "product": 27,
+    "image": "products/2023/04/23/orig_1_G34jlTl.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 59,
+  "fields": {
+    "product": 27,
+    "image": "products/2023/04/23/orig_r4J78Nq.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 60,
+  "fields": {
+    "product": 29,
+    "image": "products/2023/04/23/orig_4_3V5NCvn.webp"
+  }
+},
+{
+  "model": "app_store.gallery",
+  "pk": 61,
+  "fields": {
+    "product": 29,
+    "image": "products/2023/04/23/orig_5.webp"
+  }
+},
+{
+  "model": "app_store.reviews",
+  "pk": 9,
+  "fields": {
+    "author": 8,
+    "product": 13,
+    "text": "4/5",
+    "created_at": "2023-04-23T17:40:20.587Z"
+  }
+},
+{
+  "model": "app_store.reviews",
+  "pk": 10,
+  "fields": {
+    "author": 8,
+    "product": 8,
+    "text": "5/5",
+    "created_at": "2023-04-23T17:41:10.475Z"
+  }
+},
+{
+  "model": "app_store.reviews",
+  "pk": 11,
+  "fields": {
+    "author": 8,
+    "product": 22,
+    "text": "5/5!",
+    "created_at": "2023-04-23T17:43:43.243Z"
+  }
+},
+{
+  "model": "app_users.profile",
+  "pk": 2,
+  "fields": {
+    "user": 1,
+    "username": "admin",
+    "full_name": "qwer",
+    "phone": "+79999999999",
+    "email": "test_email_admin@company.com",
+    "avatar": "avatars/png-transparent-beard-hipster-male-man-avatars-xmas-giveaway-icon-thumbnail.png"
+  }
+},
+{
+  "model": "app_users.profile",
+  "pk": 5,
+  "fields": {
+    "user": 5,
+    "username": "Ivan123",
+    "full_name": "Иван Иванов",
+    "phone": "+79999999998",
+    "email": "test_email@company.com",
+    "avatar": "avatars/png-transparent-avatar-male-man-portrait-avatars-xmas-giveaway-icon-thumbnail.png"
+  }
+},
+{
+  "model": "app_users.profile",
+  "pk": 6,
+  "fields": {
+    "user": 6,
+    "username": "Alex123",
+    "full_name": "Александр Александров",
+    "phone": "+79999999997",
+    "email": "test_email1@company.com",
+    "avatar": "avatars/png-transparent-avatar-boy-male-portrait-avatars-xmas-giveaway-icon.png"
+  }
+},
+{
+  "model": "app_users.profile",
+  "pk": 7,
+  "fields": {
+    "user": 7,
+    "username": "test1",
+    "full_name": "Олег",
+    "phone": "+79999999990",
+    "email": "web_sawko24@mail.ru",
+    "avatar": ""
+  }
+},
+{
+  "model": "app_users.profile",
+  "pk": 8,
+  "fields": {
+    "user": 8,
+    "username": "test123",
+    "full_name": "Иван Иван",
+    "phone": "+79994999999",
+    "email": "test123@mail.com",
+    "avatar": "avatars/png-transparent-avatar-boy-male-portrait-avatars-xmas-giveaway-icon_A4KFfAt.png"
+  }
+},
+{
+  "model": "app_settings.sitesettings",
+  "pk": 1,
+  "fields": {
+    "free_delivery_edge": 2000,
+    "cost_usual_delivery": "200.00",
+    "cost_express": "500.00",
+    "categories": [
+      2,
+      9,
+      11
+    ]
+  }
+},
+{
+  "model": "app_orders.order",
+  "pk": 24,
+  "fields": {
+    "profile": 2,
+    "address": "yey",
+    "city": "None",
+    "delivery_type": "1",
+    "delivery_price": "0.00",
+    "payment_type": "2",
+    "created": "2023-04-20T12:02:26.622Z",
+    "updated": "2023-04-20T12:02:40.351Z",
+    "paid": true,
+    "card_number": 76730946,
+    "status": "Оплачен",
+    "payment_code": 1
+  }
+},
+{
+  "model": "app_orders.order",
+  "pk": 25,
+  "fields": {
+    "profile": 7,
+    "address": "twqetew",
+    "city": "None",
+    "delivery_type": "2",
+    "delivery_price": "500.00",
+    "payment_type": "2",
+    "created": "2023-04-23T10:29:42.557Z",
+    "updated": "2023-04-23T10:29:57.070Z",
+    "paid": true,
+    "card_number": 77823596,
+    "status": "Оплачен",
+    "payment_code": 1
+  }
+},
+{
+  "model": "app_orders.order",
+  "pk": 26,
+  "fields": {
+    "profile": 7,
+    "address": "weqrty",
+    "city": "None",
+    "delivery_type": "2",
+    "delivery_price": "500.00",
+    "payment_type": "2",
+    "created": "2023-04-23T11:22:47.943Z",
+    "updated": "2023-04-23T11:31:10.203Z",
+    "paid": true,
+    "card_number": 77555008,
+    "status": "Оплачен",
+    "payment_code": 1
+  }
+},
+{
+  "model": "app_orders.order",
+  "pk": 27,
+  "fields": {
+    "profile": 7,
+    "address": "куцй",
+    "city": "йцук",
+    "delivery_type": "2",
+    "delivery_price": "500.00",
+    "payment_type": "2",
+    "created": "2023-04-23T11:39:01.464Z",
+    "updated": "2023-04-23T11:39:19.665Z",
+    "paid": true,
+    "card_number": 64488326,
+    "status": "Оплачен",
+    "payment_code": 1
+  }
+},
+{
+  "model": "app_orders.order",
+  "pk": 28,
+  "fields": {
+    "profile": 7,
+    "address": "ммм",
+    "city": "цйук",
+    "delivery_type": "2",
+    "delivery_price": "500.00",
+    "payment_type": "1",
+    "created": "2023-04-23T13:25:27.201Z",
+    "updated": "2023-04-23T13:25:30.232Z",
+    "paid": true,
+    "card_number": 12341234,
+    "status": "Оплачен",
+    "payment_code": 1
+  }
+},
+{
+  "model": "app_orders.order",
+  "pk": 29,
+  "fields": {
+    "profile": 7,
+    "address": "qwety",
+    "city": "wqer",
+    "delivery_type": "1",
+    "delivery_price": "0.00",
+    "payment_type": "2",
+    "created": "2023-04-23T14:46:36.221Z",
+    "updated": "2023-04-23T14:46:54.881Z",
+    "paid": true,
+    "card_number": 40759714,
+    "status": "Оплачен",
+    "payment_code": 1
+  }
+},
+{
+  "model": "app_orders.order",
+  "pk": 30,
+  "fields": {
+    "profile": 8,
+    "address": "екугг",
+    "city": "укен",
+    "delivery_type": "2",
+    "delivery_price": "500.00",
+    "payment_type": "2",
+    "created": "2023-04-23T15:12:51.037Z",
+    "updated": "2023-04-23T15:12:53.605Z",
+    "paid": true,
+    "card_number": 18097424,
+    "status": "Оплачен",
+    "payment_code": 1
+  }
+},
+{
+  "model": "app_orders.orderitem",
+  "pk": 25,
+  "fields": {
+    "order": 24,
+    "product": 4,
+    "price": "1990.00",
+    "quantity": 3
+  }
+},
+{
+  "model": "app_orders.orderitem",
+  "pk": 26,
+  "fields": {
+    "order": 25,
+    "product": 8,
+    "price": "2230.00",
+    "quantity": 3
+  }
+},
+{
+  "model": "app_orders.orderitem",
+  "pk": 27,
+  "fields": {
+    "order": 26,
+    "product": 5,
+    "price": "2590.00",
+    "quantity": 3
+  }
+},
+{
+  "model": "app_orders.orderitem",
+  "pk": 28,
+  "fields": {
+    "order": 27,
+    "product": 5,
+    "price": "2590.00",
+    "quantity": 3
+  }
+},
+{
+  "model": "app_orders.orderitem",
+  "pk": 29,
+  "fields": {
+    "order": 28,
+    "product": 6,
+    "price": "1178.00",
+    "quantity": 6
+  }
+},
+{
+  "model": "app_orders.orderitem",
+  "pk": 30,
+  "fields": {
+    "order": 28,
+    "product": 4,
+    "price": "1990.00",
+    "quantity": 3
+  }
+},
+{
+  "model": "app_orders.orderitem",
+  "pk": 31,
+  "fields": {
+    "order": 29,
+    "product": 4,
+    "price": "1990.00",
+    "quantity": 3
+  }
+},
+{
+  "model": "app_orders.orderitem",
+  "pk": 32,
+  "fields": {
+    "order": 30,
+    "product": 4,
+    "price": "1990.00",
+    "quantity": 5
+  }
+}
+]

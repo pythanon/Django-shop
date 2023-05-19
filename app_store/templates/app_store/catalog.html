@@ -1,0 +1,145 @@
+{% extends 'app_store/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="Middle Middle_top">
+        <div class="Section Section_column Section_columnLeft">
+            <div class="wrap">
+                <div class="Section-column">
+                    <div class="Section-columnSection">
+                        <header class="Section-header">
+                            <strong class="Section-title">Фильтр
+                            </strong>
+                        </header>
+                        <div class="Section-columnContent">
+                            <form class="form" method="get" id="filter_form">
+                                <div class="form-group">
+                                    <div class="range Section-columnRange">
+                                        {{ filter.form.price }}
+                                        <div class="range-price">Цена:&#32;
+                                            <div class="rangePrice">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    {{ filter.form.title }}
+                                </div>
+                                <div class="form-group">
+                                    <!-- - var options = setOptions(items, ['value', 'selected', 'disabled']);-->
+                                </div>
+                                <div class="form-group">
+                                    <label class="toggle">
+                                        {{ filter.form.is_stock }}<span class="toggle-box"></span><span
+                                            class="toggle-text">Только товары в наличии</span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="toggle">
+                                        {{ filter.form.is_limited }}<span class="toggle-box"></span><span
+                                            class="toggle-text">Ограниченная серия</span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <div class="buttons">
+                                        <button class="btn btn_square btn_dark btn_narrow" type="submit">Применить
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="Section-content">
+                    <div class="Sort">
+                        <div class="Sort-title">Сортировать по:
+                        </div>
+                        <div class="Sort-variants">{{ filter.form.ordering }}
+                        </div>
+                    </div>
+
+                    <div class="Cards">
+                        {% for product in products_list %}
+                            <div class="Card">
+                                <a class="Card-picture" href="{{ product.get_absolute_url }}">
+                                    <img src="{{ product.images.first.image.url }}" alt="card.jpg" width="300"
+                                         height="200"/>
+                                </a>
+                                <div class="Card-content">
+                                    <strong class="Card-title">
+                                        <a href="{{ product.get_absolute_url }}">
+                                            {{ product.name }}
+                                        </a>
+                                    </strong>
+                                    <div class="Card-description">
+                                        <div class="Card-cost">
+                                            <span class="Card-price">${{ product.price }}</span>
+                                        </div>
+                                        <div class="Card-category">{{ product.category }}
+                                        </div>
+                                        <div class="Card-hover">
+                                            {% if product.is_stock %}
+                                                <form action="{% url 'cart_add' product.id %}" method="post">
+                                                    {{ cart_product_form.quantity.as_hidden }}
+                                                    {% csrf_token %}
+                                                    <a class="Card-btn" href="#"
+                                                       onclick="this.closest('form').submit();">
+                                                        <img src="{% static 'assets/img/icons/cart.svg' %}"
+                                                             alt="добавить в корзину"/>
+                                                    </a>
+                                                </form>
+                                            {% else %}
+                                                Нет в наличии
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% empty %}
+                            Товаров не найдено
+                        {% endfor %}
+                    </div>
+                    <div class="Pagination">
+                        <div class="Pagination-ins">
+                            <a class="Pagination-element Pagination-element_prev"
+                               href="?page=1&{{ parameters }}">
+                                <img src="{% static 'assets/img/icons/prevPagination.svg' %}"
+                                     alt="Первая страница"/></a>
+                            {% if page_obj.has_previous %}
+                                {% with page_num=page_obj.previous_page_number|add:-1 %}
+                                    {% if page_num > 0 %}
+                                        <a class="Pagination-element" href="?page={{ page_num }}&{{ parameters }}">
+                                            <span class="Pagination-text">{{ page_num }}</span></a>
+                                    {% endif %}
+                                {% endwith %}
+                                <a class="Pagination-element"
+                                   href="?page={{ page_obj.previous_page_number }}&{{ parameters }}">
+                                    <span class="Pagination-text">{{ page_obj.previous_page_number }}</span></a>
+                            {% endif %}
+
+                            <a class="Pagination-element Pagination-element_current" href="#">
+                                <span class="Pagination-text">{{ page_obj.number }}</span></a>
+
+                            {% if page_obj.has_next %}
+                                <a class="Pagination-element"
+                                   href="?page={{ page_obj.next_page_number }}&{{ parameters }}">
+                                    <span class="Pagination-text">{{ page_obj.next_page_number }}</span></a>
+                                {% with page_num=page_obj.next_page_number|add:1 %}
+                                    {% if page_num <= page_obj.paginator.num_pages %}
+                                        <a class="Pagination-element" href="?page={{ page_num }}&{{ parameters }}">
+                                            <span class="Pagination-text">{{ page_num }}</span></a>
+                                    {% endif %}
+                                {% endwith %}
+                            {% endif %}
+                            <a class="Pagination-element Pagination-element_prev"
+                               href="?page={{ page_obj.paginator.num_pages }}&{{ parameters }}">
+                                <img src="{% static 'assets/img/icons/nextPagination.svg' %}"
+                                     alt="Последняя страница"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}

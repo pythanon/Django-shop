@@ -1,0 +1,181 @@
+{% extends 'app_store/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="Middle Middle_top">
+        <div class="Section">
+            <div class="wrap">
+                <div class="Product">
+                    <div class="ProductCard">
+                        <div class="ProductCard-look">
+                            <div class="ProductCard-photo">
+                                <img src="{{ product.images.first.image.url }}" alt="bigGoods.png"/>
+                            </div>
+                            <div class="ProductCard-picts">
+                                {% for image in product.images.all %}
+                                    <a class="{% if forloop.first %} ProductCard-pict ProductCard-pict_ACTIVE
+                                              {% else %} ProductCard-pict
+                                              {% endif %}"
+                                       href="{{ image.image.url }} ">
+                                        <img src="{{ image.image.url }}" alt="изображение товара"/>
+                                    </a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="ProductCard-desc">
+                            <div class="ProductCard-header">
+                                <h2 class="ProductCard-title">{{ product.name }}
+                                </h2>
+                                <div class="ProductCard-info">
+                                    <div class="ProductCard-cost">
+                                        <div class="ProductCard-price">${{ product.price }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ProductCard-text">
+                                {{ product.description }}
+                            </div>
+                            <form action="{% url 'cart_add' product.pk %}" id="form_cart" method="post">
+
+                                <div class="ProductCard-cart">
+                                    <div class="ProductCard-cartElement ProductCard-cartElement_amount">
+                                        <div class="Amount Amount_product">
+                                            <button class="Amount-remove" type="button">
+                                            </button>
+                                            {{ form }}
+                                            <button class="Amount-add" type="button">
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="ProductCard-cartElement">
+                                        {% if product.is_stock %}
+                                            {% csrf_token %}
+                                            <button class="btn btn_primary" type="submit" id="btn-submit"><img
+                                                    class="btn-icon"
+                                                    src="{% static 'assets/img/icons/card/cart_white.svg' %}"
+                                                    alt="cart_white.svg"/><span class="btn-content">Купить</span>
+                                            </button>
+                                        {% else %}
+                                            <button class="btn btn_primary" disabled style="background-color: gray;">
+                                                <img class="btn-icon"
+                                                     src="{% static 'assets/img/icons/card/cart_white.svg' %}"
+                                                     alt="cart_white.svg"/>
+                                                <span class="btn-content">Нет в наличии</span>
+                                            </button>
+                                        {% endif %}
+                                    </div>
+                            </form>
+                        </div>
+                        <div class="ProductCard-footer">
+                            <div class="ProductCard-tags">
+                                <strong class="ProductCard-tagsTitle">Остаток: {{ product.stock }} шт.
+                                </strong><br>
+                                <strong class="ProductCard-tagsTitle">Категория:
+                                </strong>
+                                <a href="{% url 'catalog_category' product.category.id %}">
+                                    {{ product.category.name }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Tabs Tabs_default">
+                    <div class="Tabs-links"><a class="Tabs-link_ACTIVE Tabs-link"
+                                               href="#description"><span>Описание</span></a><a class="Tabs-link"
+                                                                                               href="#addit"><span>Характеристики</span></a><a
+                            class="Tabs-link" href="#reviews"><span>Отзывы ({{ reviews.all|length }})</span></a>
+                    </div>
+                    <div class="Tabs-wrap">
+                        <div class="Tabs-block" id="description">
+                            <h2>{{ product.name }}</h2>
+                            <p>{{ product.description }}</p>
+                            <div class="clearfix">
+                            </div>
+                        </div>
+                        <div class="Tabs-block" id="sellers">
+                            <div class="Categories Categories_product">
+                            </div>
+                        </div>
+                        <div class="Tabs-block" id="addit">
+
+                            <div class="Product-props">
+                                {% for spec in product.spec_set.all %}
+                                    <div class="Product-prop">
+                                        <strong>{{ spec.spec_name.name }}
+                                        </strong><span> {{ spec.value }}</span>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="Tabs-block" id="reviews">
+                            <header class="Section-header">
+                                <h3 class="Section-title">Отзывов: {{ reviews.all|length }}
+                                </h3>
+                            </header>
+                            <div class="Comments">
+                                {% for review in reviews %}
+                                    <div class="Comment">
+                                        <div class="Comment-column Comment-column_pict">
+                                            {% if review.author.avatar %}
+                                                <img src='{{ review.author.avatar.url }}' width="100" height="100"
+                                                     alt="avatar"/>
+                                            {% else %}
+                                                <div class="Comment-avatar">
+                                                </div>
+                                            {% endif %}
+                                        </div>
+                                        <div class="Comment-column">
+                                            <header class="Comment-header">
+                                                <div>
+                                                    <strong class="Comment-title">{{ review.author.full_name }}
+                                                        <strong>
+                                                            <span class="Comment-date">
+                                                                {{ review.created_at|date:"F d / Y / H:i" }}
+                                                            </span>
+                                                        </strong>
+                                                    </strong>
+                                                </div>
+                                            </header>
+                                            <div class="Comment-content">{{ review.text }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                            {% if request.user.is_authenticated %}
+                                <header class="Section-header Section-header_product">
+                                    <h3 class="Section-title">Добавить отзыв
+                                    </h3>
+                                </header>
+                                <div class="Tabs-addComment">
+                                    <form class="form" action="{% url 'product_detail' product.slug %}"
+                                          method="post">
+                                        {% csrf_token %}
+                                        <div class="form-group">
+                                            {{ review_form.text }}
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn_muted" type="submit">Отправить отзыв
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            {% else %}
+                                <header class="Section-header Section-header_product">
+                                    <h3 class="Section-title">Оставлять отзывы могут только авторизованные
+                                        пользователи
+                                    </h3>
+                                </header>
+                                <h3>
+                                    <a href="{% url 'login' %}">Вход</a>
+                                </h3>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{#    </div>#}
+{% endblock %}
+
